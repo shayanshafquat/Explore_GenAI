@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "docsummarizer"
+version = "0.1.0"
+description = "GenAI application by Shayan"
+authors = ["Shayan Shafquat <shafquat.shayan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = "^0.41.1"
+ipykernel = "^6.29.5"
+semantic-kernel = "0.4.2.dev0"
+azure-search-documents = "^11.5.1"
+azure-identity = "^1.17.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
